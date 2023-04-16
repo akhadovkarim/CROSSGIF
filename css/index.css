@@ -360,7 +360,7 @@ body {
 }
 
 .contentBox_Wrap_productType .Facebook_box .Facebook_img {
-    background: linear-gradient(to bottom, #07b0d9, #04c5ce);
+    background: linear-gradient(to bottom,#41ffeb6b,#5e2c6a);
     width: 20.3125rem;
     padding: 5rem 0;
     border-radius: 2.1875rem;
@@ -385,7 +385,7 @@ body {
 }
 
 .contentBox_Wrap_productType .Google_box .Google_img {
-    background: linear-gradient(to bottom, #db6c5b, #f79e90);
+    background: linear-gradient(to bottom,#4948b8,#7c3f967a);
     width: 20.3125rem;
     padding: 4.25rem 0;
     border-radius: 2.1875rem;
@@ -410,7 +410,7 @@ body {
 }
 
 .contentBox_Wrap_productType .MicrosoftBing_box .MicrosoftBing_img {
-    background: linear-gradient(to bottom, #278a6b, #3ab07e);
+    background: linear-gradient(to bottom,#7347c1d1,#3fa19d7a);
     width: 20.3125rem;
     padding: 5.1875rem 0;
     border-radius: 2.1875rem;
