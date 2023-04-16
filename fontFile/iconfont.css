@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4002239 */
+  src: url('iconfont.woff2@t=1681219732959') format('woff2'),
+       url('iconfont.woff@t=1681219732959') format('woff'),
+       url('iconfont.ttf@t=1681219732959') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-duoyuyan:before {
+  content: "\e654";
+}
+
+.icon-telegram:before {
+  content: "\e731";
+}
+
+.icon-facebook:before {
+  content: "\e64e";
+}
+
+.icon-lifangti:before {
+  content: "\e705";
+}
+
