@@ -885,6 +885,15 @@ body {
     margin-right: 0.5rem
 }
 
+.social_icons {
+    display: flex;
+}
+
+.social_icons i {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
 .footerBox {
     width: 100%
 }
@@ -896,9 +905,8 @@ body {
 
 .footerBox .footerBox_Wrap .footer {
     width: 100%;
-    background-color: #2d0543a3;
-    /* 径向渐变 */
-    background-image: radial-gradient(transparent 1px, #2d0543a3 1px);
+    background-color: #14143a;
+    background-image: radial-gradient(#0000001c 1px , #00000000 1px);
     /* 背景缩放 */
     background-size: 4px 4px;
     /* 元素后面区域添加 饱和度和模糊度效果 */
