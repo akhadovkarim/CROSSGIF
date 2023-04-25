@@ -680,10 +680,10 @@ body {
     width: 20.5rem;
     border-radius: 0.8125rem;
     color: #fff;
-    transform: rotate(-5deg);
+    /* transform: rotate(-5deg); */
     position: absolute;
     top: -0.9375rem;
-    left: -1.95rem;
+    /* left: -1.95rem; */
 }
 
 .OurStrengths .content_box .content_wrap img {
