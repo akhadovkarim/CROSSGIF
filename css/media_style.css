@@ -175,10 +175,10 @@
 
     .OurStrengths .content_box .content_wrap h4 {
         font-size: 0.75rem;
-        width: 7.125rem;
+        width: 12.125rem;
         transform: rotate(0deg);
-        top: -0.625rem;
-        left: 0;
+        top: -1rem;
+        /* left: 0; */
     }
 
     .OurStrengths .content_box .content_wrap {
