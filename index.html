@@ -743,7 +743,7 @@
                             <div class="content_wrap">
                               <h4 style="width: 25rem; background: linear-gradient(to right,#ff08b9,#a94da1)">Продвижение вашего
                                 продукта с помощью таргетированной рекламы </h4>
-                              <img src="img/10.png" alt="">
+                              <img src="img/1-purple.png" alt="">
                               <p class="m-0 p-1">Увеличим показатели и умножим ваш профит.</p>
 
                             </div>
@@ -756,7 +756,7 @@
                               <h4 class="custom_bgColor1">Медиабаинг по CPA
                                 модели
                               </h4>
-                              <img src="img/11.png" alt="">
+                              <img src="img/2-purple.png" alt="">
                               <p class="m-0">Нужен качественный трафик? Наш отдел готов браться за ваше предложение.
                                 Гемблинг, Беттинг, Нутра, Адалт, МФО, Товарка и тд.
                               </p>
@@ -769,7 +769,7 @@
                               <h4 style=" background: linear-gradient(to right,#ff08b9,#a94da1)"> Создание и ведение
                                 Телеграмм каналов
                               </h4>
-                              <img src="img/12.png" alt="">
+                              <img src="img/3-purple.png" alt="">
                               <p class="m-0">Создание тематических каналов и блоггинг.
 
 
@@ -799,7 +799,7 @@
                             <div class="content_wrap custom_bgColor2"
                               style=" background: linear-gradient(to right,#ff08b9,#a94da1)">
                               <h4 class="custom_bgColor1">Консультация в сфере маркетинга и рекламы</h4>
-                              <img src="img/14.png" alt="">
+                              <img src="img/4-purple.png" alt="">
                               <p class="m-0">Грамотная стратегия поможет вам выйти на новый уровень!
                               </p>
                             </div>
@@ -809,7 +809,7 @@
                           <div class="content_box">
                             <div class="content_wrap">
                               <h4 style=" background: linear-gradient(to right,#ff08b9,#a94da1)">SMM</h4>
-                              <img src="img/15.png" alt="">
+                              <img src="img/5-purple.png" alt="">
                               <p class="m-0">Результат будет очевиден через пару дней работы!
 
                             </div>
@@ -1099,7 +1099,7 @@
             <form id="tg" class="work-request">
               <div class="work-request--options">
                 <span class="options-a">
-                  <input id="opt-1" type="checkbox" name="gambling" value="Gambling">
+                  <input id="opt-1" type="checkbox" name="network" value="Gambling">
                   <label for="opt-1">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111"
@@ -1111,7 +1111,7 @@
                     </svg>
                     Арбитраж трафика = Affiliate Marketing World
                   </label>
-                  <input id="opt-2" type="checkbox" name="crypto" value="Crypto">
+                  <input id="opt-2" type="checkbox" name="tech" value="Crypto">
                   <label for="opt-2">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111"
@@ -1123,7 +1123,7 @@
                     </svg>
                     Разработка сайтов, ботов, логотипов, брендирование
                   </label>
-                  <input id="opt-3" type="checkbox" name="other" value="Other">
+                  <input id="opt-3" type="checkbox" name="marketing" value="Other">
                   <label for="opt-3">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111"
@@ -1138,39 +1138,28 @@
                 </span>
        
               </div>
-      
-              <!-- <div   class="work-request--information">
-     
-                <div class="information-name" style="padding-left: 20px;">
-                  <input id="name" type="text" spellcheck="false" autocomplete="off" required="required"
-                    name="nickname">
-                  <label for="name">Соло | Арбитражная команда 
-                    Компания
-                    Рекламодатель 
-                    Фарм шоп </label>
-                </div>
-              </div> -->
+
               <div   class="work-request--information">
      
                 <div class="information-name" style="padding-left: 20px;">
                   <input id="name" type="text" spellcheck="false" autocomplete="off" required="required"
-                    name="nickname">
+                    name="telegram">
                   <label for="name">Телеграм</label>
                 </div>
                 <div class="information-name" style="padding-left: 20px;">
                   <input id="name" type="text" spellcheck="false" autocomplete="off" required="required"
-                    name="nickname">
+                    name="phone">
                   <label for="name">Номер телефона</label>
                 </div>
                 <div class="information-name" style="padding-left: 20px;">
                   <input id="name" type="text" spellcheck="false" autocomplete="off" required="required"
-                    name="nickname">
+                    name="email">
                   <label for="name">Почта</label>
                 </div>
             
               </div>
               <div class="OurStrengths_button text-center">
-                <button class="" onclick="go()">Оставить заявку</button>
+                  <button class="">Отправить</button>
               </div>
               <div   class="work-request--information">
                 
@@ -1225,51 +1214,11 @@
 
     </div>
   </div>
-  <!-- Counter -->
-  <script>
-    let section_counter = document.querySelector('#section_counter');
-    let counters = document.querySelectorAll('.counter-item .counter');
 
-    // Scroll Animation
-
-    let CounterObserver = new IntersectionObserver(
-      (entries, observer) => {
-        let [entry] = entries;
-        if (!entry.isIntersecting) return;
-
-        let speed = 200;
-        counters.forEach((counter, index) => {
-          function UpdateCounter() {
-            const targetNumber = +counter.dataset.target;
-            const initialNumber = +counter.innerText;
-            const incPerCount = targetNumber / speed;
-            if (initialNumber < targetNumber) {
-              counter.innerText = Math.ceil(initialNumber + incPerCount);
-              setTimeout(UpdateCounter, 40);
-            }
-            else {
-              counter.innerText = targetNumber;
-            }
-          }
-          UpdateCounter();
-
-          if (counter.parentElement.style.animation) {
-            counter.parentElement.style.animation = '';
-          } else {
-            counter.parentElement.style.animation = `slide-up 0.3s ease forwards ${index / counters.length + 0.5
-              }s`;
-          }
-        });
-        observer.unobserve(section_counter);
-      },
-      {
-        root: null,
-        threshold: window.innerWidth > 768 ? 0.4 : 0.3,
-      }
-    );
-
-    CounterObserver.observe(section_counter);
-  </script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
 
 
   <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
