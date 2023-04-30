@@ -9,7 +9,7 @@ document.getElementById('tg').addEventListener('submit', function(e) {
     
     let message = `<b>Заявка из сайта</b>\n`;
     message += `<b>Телеграм: </b> ${ this.telegram.value }\n`;
-    message += `<b>Телефон номер 📱: </b> ${ this.phone.value } 📱\n`;
+    message += `<b>Телефон номер 📱: </b> ${ this.phone.value } \n`;
     message += `<b>Почта: </b> ${ this.email.value }\n`;
     if(network.checked || tech.checked || marketing.checked) {
         message += `Интересует: `;
