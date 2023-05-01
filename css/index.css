@@ -643,7 +643,9 @@ body {
     border-radius: 2.1875rem;
     background-color: #393848;
 }
-
+.social_icons a i {
+    color: #37a5e5 ;
+}
 .OurStrengths .content_box {}
 
 .OurStrengths .content_box .content_wrap {
