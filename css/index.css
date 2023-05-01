@@ -106,7 +106,7 @@ body {
     backdrop-filter: saturate(50%) blur(4px);
     border-radius: 1.0625rem;
     padding: 0.625rem 4.375rem;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .nav_box .navBox_wrap nav ul {
@@ -171,7 +171,7 @@ body {
 
 .logo_titleBox .logo_titleBox_wrap .left_box .picture3 {
     position: absolute;
-    top: -20.0625rem;
+    top: -2 0.0625rem;
     left: 0;
     z-index: -2;
 }
@@ -261,7 +261,7 @@ body {
     font-weight: bold;
     color: #fff;
     border-radius: 3.125rem;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .logo_titleBox .logo_titleBox_wrap .right_box {}
@@ -307,7 +307,7 @@ body {
     color: #b6babd;
     font-size: 1.75rem;
     z-index: 3;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .productType_box .productType_boxWrap .productType_content .productType_contentWrap .productType_content_titleBox h2 {
@@ -383,7 +383,7 @@ body {
     font-size: 1.125rem;
     background: linear-gradient(to bottom, #5d5c68, #393848);
     color: #fff;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .contentBox_Wrap_productType .Google_box .Google_img {
@@ -408,7 +408,7 @@ body {
     font-size: 1.125rem;
     background: linear-gradient(to bottom, #5d5c68, #393848);
     color: #fff;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .contentBox_Wrap_productType .MicrosoftBing_box .MicrosoftBing_img {
@@ -433,7 +433,7 @@ body {
     font-size: 1.125rem;
     background: linear-gradient(to bottom, #5d5c68, #393848);
     color: #fff;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .mybutton {
@@ -444,7 +444,7 @@ body {
     padding: 20px;
     border-radius: 3.125rem;
     background: linear-gradient(to bottom, #6646cf, #554dd6);
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 
 
 }
@@ -476,7 +476,7 @@ body {
     font-weight: bold;
     color: #fff;
     border-radius: 3.125rem;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .companyIntroductionBox {
@@ -555,7 +555,7 @@ body {
 
 .companyIntroductionBox_cover_wrap .companyIntroductionBox_cove_content p {
     font-size: 1rem;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .companyIntroductionBox_cover_wrap .companyIntroductionBox_cove_content p.p_days {
@@ -603,7 +603,7 @@ body {
 .OurStrengthsBox .OurStrengthsBox_Wrap .OurStrengths_background .OurStrengths_title h4 {
     font-size: 1.5625rem;
     color: #b6babb;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .OurStrengthsBox .OurStrengthsBox_Wrap .OurStrengths_background .OurStrengths_title h3 {
@@ -695,7 +695,7 @@ body {
 .OurStrengths .content_box .content_wrap p {
     margin-top: 1.5625rem !important;
     font-size: 1.25rem;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .OurStrengths_button {
@@ -712,7 +712,7 @@ body {
     font-weight: bold;
     color: #fff;
     border-radius: 3.125rem;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .UserReviewsBox {
@@ -736,12 +736,12 @@ body {
 .UserReviewsBox .UserReviews_Wrap .UserReviews_Title h4 {
     font-size: 1.5625rem;
     color: #b6babc;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .UserReviewsBox .UserReviews_Wrap .UserReviews {
     width: 100%;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .UserReviewsBox .UserReviews_Wrap .UserReviews .UserReviews_row {
@@ -864,7 +864,7 @@ body {
 }
 
 .FrequentlyAskedBox .FrequentlyAsked_Wrap .FrequentlyAsked {
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
 }
 
 .FrequentlyAskedBox .FrequentlyAsked_Wrap .FrequentlyAsked .box {}
@@ -954,7 +954,7 @@ body {
 
 .footerBox .footerBox_Wrap .footer .divisionLine_footer .mailboxBox {
     color: #FFFFFF;
-    font-family: CustomMediaWebsiteFonts2, sans-serif;
+    font-family: 'Navigo' , sans-serif;
     padding: 0.9375rem 0 0.9375rem 0;
 }
 
