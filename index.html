@@ -84,7 +84,7 @@
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                       <li class="nav-item active color_custom">
-                        <a class="nav-link Advantages" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                        <a class="nav-link About" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"
                           href="index.#">Кто мы ?<span class="sr-only">(current)</span></a>
                       </li>
@@ -176,7 +176,7 @@
               </div>
             </div>
 
-            <div class="companyIntroductionBox" id="network">
+            <div class="companyIntroductionBox" id="about">
               <div class="companyIntroductionBox_wrap">
                 <div class="horseRaceLamp_Marquee">
 
@@ -536,7 +536,7 @@
                   </div>
 
                   <div class="OurStrengths_button text-center">
-                    <button class="" style="width:auto; padding: 10px;" onclick="go()">Обусдить проект</button>
+                    <button class="Contact" style="width:auto; padding: 10px;" >Обсудить проект</button>
                   </div>
 
                 </div>
@@ -669,7 +669,7 @@
 
                   <div class="OurStrengths_button text-center">
                     <button style=" background: linear-gradient(to right,#178522,#4da953); width:auto; padding: 10px;"
-                      class="" onclick="go()">Обсудить проект</button>
+                      class="Contact">Обсудить проект</button>
                   </div>
 
                 </div>
@@ -850,7 +850,7 @@
 
                   <div class="OurStrengths_button text-center">
                     <button style=" background: linear-gradient(to right,#ff08b9,#a94da1); width:auto; padding: 10px;"
-                      class="" onclick="go()">Обсудить проект</button>
+                      class="Contact" >Обсудить проект</button>
                   </div>
 
                 </div>
@@ -1358,6 +1358,7 @@
   </script>
 
   <script type="text/javascript">
+
     $('.Advantages').bind('click.smoothscroll', function (a) {
       a.preventDefault();
       var $target = $('#services');
@@ -1367,9 +1368,18 @@
       }, 1500, 'swing');
     });
 
+    $('.About').bind('click.smoothscroll', function (a) {
+      a.preventDefault();
+      var $target = $('#about');
+      var h = $target.offset().top;
+      $('html, body').stop().animate({
+        'scrollTop': h - 140
+      }, 1500, 'swing');
+    });
+
     $('.Reviews').bind('click.smoothscroll', function (b) {
       b.preventDefault();
-      var $target = $('.UserReviewsBox');
+      var $target = $('#services');
       var h = $target.offset().top;
       $('html, body').stop().animate({
         'scrollTop': h - 80
@@ -1378,7 +1388,7 @@
 
     $('.FAQ').bind('click.smoothscroll', function (c) {
       c.preventDefault();
-      var $target = $('.FrequentlyAskedBox');
+      var $target = $('.UserReviewsBox');
       var h = $target.offset().top;
       $('html, body').stop().animate({
         'scrollTop': h - 80
@@ -1389,7 +1399,7 @@
       var $target = $('#contact');
       var h = $target.offset().top;
       $('html, body').stop().animate({
-        'scrollTop': h - 80
+        'scrollTop': h - 50
       }, 1500, 'swing');
     });
     $('.Tech').bind('click.smoothscroll', function (c) {
